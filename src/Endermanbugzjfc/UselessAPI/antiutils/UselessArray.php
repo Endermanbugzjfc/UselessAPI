@@ -23,8 +23,7 @@ namespace Endermanbugzjfc\UselessAPI\antiutils;
 
 use Endermanbugzjfc\UselessAPI\stuff\{UselessInstanceGuarantee, UselessInstanceTrait};
 
-final class UselessArray implements \ArrayAccess, UselessInstanceGuarantee {
-	use UselessInstanceTrait;
+final class UselessArray implements \ArrayAccess {
 	
 	/**
 	 * Do nothing
